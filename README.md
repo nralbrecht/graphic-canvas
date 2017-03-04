@@ -4,30 +4,30 @@ This is a program in witch you can draw to scriptable canvas using a custom writ
 
 ## Usage
 
-Running the `.exe` will open up the Interactive Shell where you can enter commands directly and live.
+Running the `.exe` will open up the interactive shell where you can enter commands directly and see the outcome.
 
-When you reference a source code file in the arguments this code will run and you can see the outcome in the window. Tip: Try draging a code file on the `.exe`
+When you reference a source code file in the arguments this code will run and you can see the outcome in the window. Tip: Try dragging a code file on the `.exe`
 
 ## Primitives
 
 ### Integer
 
-Only Natural Numbers (n >= 0)
+Consists of a single Natural Number (n >= 0)
 
 #### Example
 
-- 0
-- 123
-- 424242
+- `0`
+- `123`
+- `424242`
 
 ### Strings
 
 A string of up to 256 characters.
-Has to be surrounded by Quotation marks(").
+Has to be surrounded by Quotation marks(`"`).
 
 #### Example
 
-- "testing123"
+- `"testing123"`
 
 ### Color
 
@@ -35,10 +35,10 @@ A color given in its hexadecimal representation. See HTML color definitions for 
 
 #### Example
 
-- #F0F
-- #19BD8F
-- #ff0
-- #fa5e0d
+- `#F0F`
+- `#19BD8F`
+- `#ff0`
+- `#fa5e0d`
 
 ## Variables
 
@@ -48,24 +48,24 @@ After they are instantiated you can use them instead of a value.
 
 ### Example
 
-- var foo = "bar"
-- var bar = 123
-- var test = #ff0
+- `var foo = "bar"`
+- `var bar = 123`
+- `var test = #ff0`
 
 ## Functions
 
 To interact with the graphic canvas you can use a number of predefined functions.
 
-- fill(color c)
-- setPixel(int x, int y, color c)
-- setRect(int x, int y, int width, int height, color c)
-- writeText(int x, int y, int size, string text, color c)
+- `fill(color c)`
+- `setPixel(int x, int y, color c)`
+- `setRect(int x, int y, int width, int height, color c)`
+- `writeText(int x, int y, int size, string text, color c)`
 
-- getPixel(int x, int y)
-- getNoise(int x, int y)
-- getWidth()
-- getHeight()
-- getRand(int min, int max)
+- `getPixel(int x, int y)`
+- `getNoise(int x, int y)`
+- `getWidth()`
+- `getHeight()`
+- `getRand(int min, int max)`
 
 ## Example Code
 
@@ -83,9 +83,9 @@ write(1, 1, font_size, "testing123", primary)
 
 ## Key Bindings
 
-- strg + s: saves the current canvas to an image in the current directory
-- strg + r: reload the image
-- alt + f4: closes the window
+- `strg + s`: saves the current canvas to an image in the current directory
+- `strg + r`: reload the image
+- `alt + f4`: closes the window
 
 ## TODO List
 
